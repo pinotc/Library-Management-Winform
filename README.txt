@@ -1,22 +1,29 @@
+# Project Setup Guide
 
-### Yêu cầu để thực thi project
-* Visual Studio
-* .NET Framework 4.7.2
-* Entity Framework 6.4.4
-* SQL Server
-* Siticone UI/UX Framework
+## Yêu cầu để thực thi project
+
+- **Visual Studio**
+- **.NET Framework 4.7.2**
+- **Entity Framework 6.4.4**
+- **SQL Server**
+- **Siticone UI/UX Framework**
+
+## Hướng dẫn
 
 ### Bước 1: Khởi tạo database
 
-* Thực thi file QLTV.sql để khởi tạo database
+1. Thực thi file `QLTV.sql` để khởi tạo database.
 
 ### Bước 2: Thực thi chương trình
 
-* Mở solution trong Visual Studio
-* Vào mục Tools -> NugGt Package Manager -> Manager NuGet Packages For Solution -> Updates
-* Cập nhật Closed XML, Closed XML.Report DocumentFormat.OpenXml cho GUI
-* Debug
+1. Mở solution trong Visual Studio.
+2. Vào menu `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages For Solution` -> `Updates`.
+3. Cập nhật các gói sau:
+   - `ClosedXML`
+   - `ClosedXML.Report`
+   - `DocumentFormat.OpenXml`
+4. Thực hiện Debug để chạy chương trình.
 
+---
 
-
-*Power by Ledat*
+*Powered by Le Dat*
